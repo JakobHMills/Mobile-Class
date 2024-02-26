@@ -1,0 +1,58 @@
+Spinning Up React Native App
+		
+System requirements:
+
+You will be using Visual Studio Code, Node.js and Expo Go. Make sure to have a phone and a laptop that can both connect to the same network or you won’t be able to see your hard work. It’s recommended to have at least 1.6GHz or faster processor and at least 1 GB of ram. 
+
+Installation instructions:
+
+Google VS code and download a version that functions with your operating system.
+
+Expo Go: Go to the app store on your phone and search for “Expo Go” and download it.
+
+Node.js: Go to nodejs.org on your laptop, download the 20.10.0 LTS version and wait for it to download. Open it after it’s downloaded, and hit next through everything. You don’t need to check the box for Chocolatey.
+
+Configuration steps:
+
+In your command prompt, type “node -v” and it should return 20.10.0
+
+Then run “npm -v” and it should return 10.2.3 
+
+Once this is confirmed run the prompt “npm install expo-cli —global “
+
+Create a folder in your c drive called cprg303 
+
+Create a folder in that folder called demo
+
+Copy the path for the new demo folder that’s inside cprg303
+
+Now im command prompt run “cd c:\cprg303\demo” or whatever you named your folders 
+
+Once the previous step is done run in command prompt  “npx create-expo-app project1”
+
+Then type “y” to proceed 
+
+Now do “cd project1”
+
+After run “npm start”
+
+When you do this it should start a server and give you a QR code that you are able to scan on your phone. Scan it on your phone and it will open on Expo Go if properly downloaded.
+To stop the server type in the command prompt “c” while hitting the Ctrl button on your keyboard. 
+
+Project creation:
+
+Type “code .” into the command prompt to start creating your project. This should open VS code and you can navigate to the App.js file to make changes to the page on your phone. 
+
+Running the project:
+
+The command “npm start” runs the project and the “c” while hitting ctrl button closes the project. 
+
+Troubleshooting:
+
+Make sure both devices are on the same network and both using wifi for the process to properly work. 
+
+Make sure to update node.js if it isn’t on version 20.10.0
+
+Resources:
+
+https://code.visualstudio.com/docs/supporting/requirements
